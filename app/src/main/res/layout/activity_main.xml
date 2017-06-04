@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jay.testapp.MainActivity">
+
+    <EditText
+        android:id="@+id/EmailET"
+        android:layout_width="294dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_above="@+id/NameET"
+        android:layout_alignRight="@+id/NameET"
+        android:layout_alignEnd="@+id/NameET"
+        android:layout_marginBottom="22dp"
+        android:layout_alignLeft="@+id/NameET"
+        android:layout_alignStart="@+id/NameET" />
+
+    <EditText
+        android:id="@+id/NameET"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="176dp"
+        android:layout_height="45dp"
+        android:text="Button"
+        tools:layout_editor_absoluteY="279dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp" />
+</RelativeLayout>

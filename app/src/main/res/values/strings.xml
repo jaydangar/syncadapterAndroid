@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="Sync_Account_Type">com.example.jay.testapp</string>
+    <string name="Content_Authority">com.example.jay.testapp.provider</string>
+</resources>
